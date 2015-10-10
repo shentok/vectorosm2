@@ -3,10 +3,10 @@
   <document>
     <head>
       <license short="© OpenStreetMap contributors">Source: © OpenStreetMap contributors, License: Creative Commons Attribution-ShareAlike 2.0 (CC BY-SA)</license>
-      <name>Vector OSM</name>
+      <name>Vector OSM 2</name>
       <target>earth</target>
-      <theme>vectorosm</theme>
-      <icon pixmap="vectorosm-preview.png"/>
+      <theme>vectorosm2</theme>
+      <icon pixmap="preview.png"/>
       <visible>true</visible>
       <description><![CDATA[<p>A <i>global roadmap</i> created by the OpenStreetMap (OSM) project.</p><p>OSM is an open community which creates free editable maps. The OSM data was rendered using Mapnik.</p>]]></description>
       <zoom>
@@ -42,7 +42,7 @@
       </layer>
       <layer name="vectorosm" backend="vectortile" >
           <vectortile name="geojson_data" expire="604800" >
-              <sourcedir format="OSM"> earth/vectorosm </sourcedir>
+              <sourcedir format="OSM"> earth/vectorosm2 </sourcedir>
               <tileSize width="256" height="256" />
               <storageLayout levelZeroColumns="1" levelZeroRows="1" minimumTileLevel="10" maximumTileLevel="20" mode="Custom" />
               <projection name="Mercator" />
