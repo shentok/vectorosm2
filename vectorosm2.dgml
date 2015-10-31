@@ -44,7 +44,7 @@
           <vectortile name="geojson_data" expire="604800" >
               <sourcedir format="OSM"> earth/vectorosm2 </sourcedir>
               <tileSize width="256" height="256" />
-              <storageLayout levelZeroColumns="1" levelZeroRows="1" minimumTileLevel="12" maximumTileLevel="20" mode="Custom" />
+              <storageLayout levelZeroColumns="1" levelZeroRows="1" tileLevels="13,14,15,16,17" mode="Custom" />
               <projection name="Mercator" />
               <downloadUrl protocol="http" host="api.openstreetmap.org" path="/api/0.6/map" query="bbox={west},{south},{east},{north}" />
               <downloadPolicy usage="Browse" maximumConnections="20" />
