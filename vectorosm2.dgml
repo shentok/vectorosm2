@@ -25,7 +25,7 @@
           <sourcedir format="JPG"> earth/googlesat </sourcedir>
           <storageLayout levelZeroColumns="1" levelZeroRows="1" maximumTileLevel="20" mode="Custom" />
           <projection name="Mercator" />
-          <downloadUrl protocol="https" host="khm.google.com" path="/kh/v=699&amp;hl=de&amp;x={x}&amp;s=&amp;y={y}&amp;z={zoomLevel}&amp;s=Ga" />
+          <downloadUrl protocol="https" host="khms.googleapis.com" path="/kh/v=707&amp;hl=de&amp;x={x}&amp;y={y}&amp;z={zoomLevel}" />
           <downloadPolicy usage="Browse" maximumConnections="20"/>
           <downloadPolicy usage="Bulk" maximumConnections="2"/>
         </texture>
